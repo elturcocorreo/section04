@@ -32,7 +32,7 @@ jobs:
           path: |
             dist
             package.json
-  deploy:
+  deploy: #add a comment
     needs: build
     runs-on: ubuntu-latest
     steps:
